@@ -25,7 +25,9 @@ ul {
 
 footer {
   display: block;
-  background-color: #ffffff;
+  color: #ffffff;
+  line-height: 1.2;
+  font-size: 1.2rem;
   height: 5rem;
 }
 form {
@@ -41,7 +43,9 @@ label {
   color: #ffffff;
   font-size: 16px;
 }
-
+p {
+  margin-bottom: 0;
+}
 /* Faders */
 .fade-to-black {
   background: linear-gradient(#102753, #000000);
