@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
   position: relative;
   perspective: 60rem;
-  margin-left: 6px;
+  margin-left: 9px;
 }
 
 ul {
@@ -157,7 +157,7 @@ p {
   -ms-animation: BackgroundAnimated 450s linear infinite;
   -o-animation: BackgroundAnimated 450s linear infinite;
   animation: BackgroundAnimated 450s linear infinite;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 @keyframes BackgroundAnimated {
@@ -275,6 +275,7 @@ p {
   font-size: 2.4rem;
   text-align: center;
 }
+
 .nav-logo {
   border-radius: 15%;
   margin-left: 2.5rem;
@@ -290,6 +291,7 @@ p {
   display: -moz-flex;
   align-items: center;
 }
+
 .nav-scrolly {
   margin-left: 2rem;
   color: #fff9db;
@@ -445,10 +447,6 @@ p {
 
 /* Sign Up */
 .form-group {
-  /* display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center; */
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
