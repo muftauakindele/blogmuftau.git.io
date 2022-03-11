@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
   position: relative;
   perspective: 60rem;
-  margin-left: 9px;
+  margin: 0 auto;
 }
 
 ul {
@@ -40,14 +40,14 @@ form {
 }
 label {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 p {
   margin-bottom: 0;
 }
 /* Faders */
 .fade-to-black {
-  background: linear-gradient(#102753, #000000);
+  background: linear-gradient(#000000, #000000);
 }
 .from-left {
   transform: translateX(-50%);
@@ -147,11 +147,11 @@ p {
   color: #fff9db;
   height: 90vh;
   width: 100vw;
-  -webkit-border-radius: 1rem;
-  border-radius: 1rem;
+
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.2);
   background-position: 50% 75%;
-  background-image: url("../imgs/milky-way-g8ef5422f4_1920.jpg");
+
+  background-image: url("../imgs/Cover.png");
   -webkit-animation: BackgroundAnimated 450s linear infinite;
   -moz-animation: BackgroundAnimated 450s linear infinite;
   -ms-animation: BackgroundAnimated 450s linear infinite;
@@ -201,11 +201,11 @@ p {
 }
 
 .message {
-  padding: 1.5rem 2.5rem;
+  padding: 1rem 2rem;
   width: fit-content;
   max-width: 60%;
   position: relative;
-  font-size: 3.2rem;
+  font-size: 3rem;
   text-align: left;
   line-height: 1.2;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.2);
@@ -266,7 +266,7 @@ p {
 .heading-secondary {
   padding: 2rem;
   margin-bottom: 3.2rem;
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 300;
   text-align: left;
 }
@@ -428,23 +428,6 @@ p {
   margin-bottom: 3.2rem;
 }
 
-.caption-port {
-  display: flex;
-  display: -webkit-flex;
-  display: -o-flex;
-  display: -ms-flex;
-  display: -moz-flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 3.2rem;
-  text-align: center;
-  line-height: 1.5;
-  padding: 0 6rem;
-  margin-bottom: 2rem;
-  width: 80%;
-}
-
 /* Sign Up */
 .form-group {
   padding-top: 4rem;
@@ -459,9 +442,12 @@ p {
   -ms-user-select: none;
   user-select: none;
 }
+.avatar {
+  border-radius: 50%;
+}
 .logo {
   border-radius: 8px;
-  box-shadow: 0 8px 8px rgb(51, 51, 51, 0.3);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
 }
 
 .form-signin {
@@ -474,7 +460,7 @@ p {
   box-sizing: border-box;
   height: auto;
   padding: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .form-signin .form-control:focus {
   z-index: 2;
