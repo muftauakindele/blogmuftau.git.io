@@ -59,6 +59,10 @@
       .animal-message {
         column-gap: 0;
       }
+
+      .hero {
+        height: 60vh;
+      }
     }
 
     @media only screen and (min-width: 450px) and (max-width: 599px) {
@@ -85,6 +89,10 @@
 
       .animal-message {
         column-gap: 0;
+      }
+
+      .hero {
+        height: 65vh;
       }
     }
 
@@ -114,6 +122,10 @@
 
       .nav-scrolly-port {
         font-size: 2rem
+      }
+
+      .hero {
+        height: 70vh;
       }
     }
 
@@ -197,11 +209,11 @@
     </header>
 
     <section id="about">
-      <div class="about-me container container-gap">
+      <div class="about-me container">
 
         <div class="row">
-          <div class="col-sm col-8 ">
-            <p class="outgoing message slideIn from-bottom">Hey, it’s Muftau! Nice to meet you.</p>
+          <div class="col-sm slideIn from-bottom col-8 outgoing message">
+            <p class="">Hey, it’s Muftau! Nice to meet you.</p>
           </div>
         </div>
 
@@ -213,7 +225,7 @@
           </div>
         </div>
 
-        <div class="row ">
+        <div class="row">
           <div class="col-sm col-8 outgoing message slideIn from-bottom">
             <p>Sure! I have a Gerberian Shepsky (Nala) and TWO. BLACK. CATS (Flacko and Jodye). I know what you’re
               thinking, but if you care to know why, please kindly proceed. 😊 Most people DESPISE these (sometimes)
@@ -319,9 +331,12 @@
         </div>
 
         <div id="signup" class="container">
-          <h2 class="heading-secondary slideIn from-bottom incoming message">How can I stay updated on your journey?
-          </h2>
-
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading-secondary slideIn from-bottom incoming message">How can I stay updated on your journey?
+              </h2>
+            </div>
+          </div>
 
           <div class="row slideIn from-bottom">
             <div class="col-sm col-8 outgoing message">
@@ -332,29 +347,27 @@
               </p>
             </div>
           </div>
+          <div class="row justify-content-center">
+            <div class="col-xs col-8 form-group">
+              <form action="/" method="POST" class="form-signin slideIn from-bottom">
+                <img class="mb-4 logo" src="/imgs/DAYOtheGUYO-LOGO.jpg" alt="logo" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-normal">Stay in the loop!</h1>
 
-          <div class="text-center form-group">
-            <form action="/" method="POST" class="form-signin slideIn from-bottom">
-              <img class="mb-4 logo" src="/imgs/DAYOtheGUYO-LOGO.jpg" alt="logo" width="72" height="72">
-              <h1 class="h3 mb-3 font-weight-normal">Stay in the loop!</h1>
-
-              <input type="text" name="fName" class="top form-control" placeholder="First Name" required>
-              <input type="text" name="lName" class="middle form-control" placeholder="Last Name" required>
-              <input type="email" name="email" class="bottom form-control" placeholder="Email address" required>
-
-
-              <button class="btn btn-lg btn-block cta-btn" type="submit">Sign Up Now!</button>
-            </form>
+                <input type="text" name="fName" class="top form-control" placeholder="First Name" required>
+                <input type="text" name="lName" class="middle form-control" placeholder="Last Name" required>
+                <input type="email" name="email" class="bottom form-control" placeholder="Email address" required>
+                <button class="btn btn-lg btn-block cta-btn" type="submit">Sign Up Now!</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </div>
 
-
   <footer>
-    <div>Icons made by <a href=" https://www.freepik.com" title="Freepik">Freepik</a> from <a
-        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div>Icons made by <a class="freepik" href=" https://www.freepik.com" title="Freepik">Freepik</a> from <a
+        class="freepik" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     &copy; 2022 Muftau Akindele. All rights reserved.
   </footer>
 
