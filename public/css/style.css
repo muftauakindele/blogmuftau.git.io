@@ -151,7 +151,7 @@ p {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.2);
   background-position: 50% 75%;
 
-  background-image: url("../imgs/Cover.png");
+  background-image: url("../imgs/Cover.webp");
   -webkit-animation: BackgroundAnimated 450s linear infinite;
   -moz-animation: BackgroundAnimated 450s linear infinite;
   -ms-animation: BackgroundAnimated 450s linear infinite;
@@ -507,4 +507,171 @@ p {
 
 .freepik {
   color: #ffffff;
+}
+/* /////////////////////////////////////
+Media Quieres */
+/* Extra small devices */
+@media only screen and (max-width: 449px) {
+  .heading-primary {
+    font-size: 6rem;
+  }
+
+  .nav-scrolly {
+    font-size: 1.8rem;
+  }
+
+  .h1-subtext {
+    font-size: 2rem;
+  }
+
+  .message {
+    font-size: 1.4rem;
+  }
+
+  .nav-scrolly-port {
+    font-size: 1.4rem;
+  }
+
+  .life-img {
+    width: 32rem;
+  }
+
+  .dog,
+  .cat {
+    width: 26rem;
+  }
+
+  .animal-message {
+    column-gap: 0;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 599px) {
+  .heading-primary {
+    font-size: 7.4rem;
+  }
+
+  .nav-scrolly {
+    font-size: 2rem;
+  }
+
+  .h1-subtext {
+    font-size: 2.1rem;
+  }
+
+  .message {
+    font-size: 1.8rem;
+  }
+
+  .nav-scrolly-port {
+    font-size: 1.8rem;
+  }
+
+  .life-img {
+    width: 32rem;
+  }
+
+  .dog,
+  .cat {
+    width: 28rem;
+  }
+
+  .animal-message {
+    column-gap: 0;
+  }
+
+  .hero {
+    height: 65vh;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .heading-primary {
+    font-size: 9.8rem;
+  }
+
+  .nav-scrolly {
+    font-size: 2.2rem;
+  }
+
+  .h1-subtext {
+    font-size: 2.2rem;
+  }
+
+  .message {
+    font-size: 2rem;
+  }
+
+  .life-img {
+    width: 32rem;
+  }
+
+  .dog,
+  .cat {
+    width: 28rem;
+  }
+
+  .animal-message {
+    column-gap: 0;
+  }
+
+  .nav-scrolly-port {
+    font-size: 2rem;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+}
+
+/* Medium devices*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .heading-primary {
+    font-size: 12rem;
+  }
+
+  .h1-subtext {
+    font-size: 2.225rem;
+  }
+
+  .nav-scrolly {
+    font-size: 2.2rem;
+  }
+
+  .message {
+    font-size: 2.6rem;
+  }
+
+  .life-img {
+    width: 32rem;
+  }
+
+  .dog,
+  .cat {
+    width: 28rem;
+  }
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .nav-scrolly-port {
+    font-size: 2.6rem;
+  }
+}
+
+/* Large devices*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .heading-primary {
+    font-size: 15rem;
+  }
+}
+
+/* Extra large devices*/
+@media only screen and (min-width: 1200px) {
 }

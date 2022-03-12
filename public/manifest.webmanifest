@@ -1,13 +1,13 @@
 {
   "icons": [
     {
-      "src": "imgs/androidicon192.jpg",
+      "src": "imgs/androidicon192.webp",
       "type": "image/jpg",
       "sizes": "192x192"
     },
 
     {
-      "src": "imgs/androidicon512.jpg",
+      "src": "imgs/androidicon512.webp",
       "type": "image/jpg",
       "sizes": "512x512"
     }
