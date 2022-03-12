@@ -548,6 +548,38 @@ Media Quieres */
   .hero {
     height: 60vh;
   }
+  @keyframes BackgroundAnimated {
+    from {
+      background-position: 50% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes BackgroundAnimated {
+    from {
+      background-position: 50% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-ms-keyframes BackgroundAnimated {
+    from {
+      background-position: 50% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-moz-keyframes BackgroundAnimated {
+    from {
+      background-position: 50% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 599px) {
@@ -586,6 +618,38 @@ Media Quieres */
 
   .hero {
     height: 65vh;
+  }
+  @keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-ms-keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-moz-keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
   }
 }
 
@@ -626,6 +690,38 @@ Media Quieres */
 
   .hero {
     height: 70vh;
+  }
+  @keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-ms-keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @-moz-keyframes BackgroundAnimated {
+    from {
+      background-position: 25% 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
   }
 }
 
